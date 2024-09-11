@@ -1,0 +1,154 @@
+* {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+}
+
+.container {
+    width: 80%;
+}
+
+/* -----------------------section 1 ------------------------- */
+.section1 {
+    position: sticky;
+    top: 0;
+    height: 10rem auto;
+    background-color: aquamarine;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.img-div {
+    margin: 10px;
+}
+
+.pro-img {
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+    margin-left: 100px;
+}
+
+.prof-data {
+    margin-right: 100px;
+}
+
+/* ------------------section 2 ------------------- */
+
+.section2 {
+    width: 80%;
+}
+.sec2-tit {
+    font-size: 30px;
+}
+
+.sec2-content {
+    margin: 30px;
+}
+
+/* -----------------section 3 -------------------- */
+
+.sec3-content {
+    padding: 10px;
+}
+
+
+table,
+tr,
+td,
+th {
+    border: 1px solid;
+    border-collapse: collapse;
+    background-color: #f5f5f5;
+    padding: 10px;
+}
+
+
+/* ---------------------section 4 ------------------------- */
+
+.sec4-con {
+    margin: 30px;
+}
+
+.sec4-tit {
+    font-size: 28px;
+}
+
+.compny-name {
+    font-size: 18px;
+    font-weight: 600;
+}
+
+/* ----------------------section 5 ------------------------ */
+
+.sec5-content {
+    margin: 30px;
+}
+
+.skill-list ul {
+    margin-left: 26px;
+}
+
+.skill-list ul li {
+    list-style: square;
+}
+
+/* ------------------footer section ---------------- */
+.footer {
+    height: 40px;
+    background-color: aquamarine;
+    text-align: center;
+    padding-top: 22px;
+}
+
+.footer i {
+    color: black;
+}
+
+/* ---------------res ---------------- */
+@media only screen and (max-width: 772px) {
+    .container {
+        width: 100%;
+    }
+
+    .section1,
+    section2,
+    section3,
+    section4,
+    section5 {
+        width: 100%;
+        margin: 0;
+    }
+
+    .section1 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    /* -----------section 3------------ */
+    
+    .section3 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .pro-img {
+        margin: 0;
+    }
+
+    .prof-data {
+        margin-right: 0;
+    }
+}
